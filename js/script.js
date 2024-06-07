@@ -145,7 +145,7 @@ const user = "Ivan";
 alert(`Привет, ${user}`);
 */
 
-// ===== 009 Операторы в JS =====
+/* ===== 009 Операторы в JS =====
 
 console.log('arr' + ' - object');
 console.log(4 + +'5');
@@ -176,3 +176,7 @@ const isChecked = false,
 console.log(isChecked && isClose);
 console.log(isChecked || isClose);
 console.log(isChecked || !isClose);
+*/
+
+// ===== 010 Учимся работать с системой контроля версий Git и с сервисом GitHub =====
+// ===== 011 Как работать с GitHub с разных компьютеров, gitignore и Git Kraken =====
