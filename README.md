@@ -1,2 +1,2 @@
 AAFCGSgbsBNEXBsn
-start practice
+start practicу
