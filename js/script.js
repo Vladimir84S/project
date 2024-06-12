@@ -181,3 +181,44 @@ console.log(isChecked || !isClose);
 // ===== 010 Учимся работать с системой контроля версий Git и с сервисом GitHub =====
 // ===== 011 Как работать с GitHub с разных компьютеров, gitignore и Git Kraken =====
 // ===== 012 (д) Сетевые протоколы. Подключение компьютера к аккаунту Github через SSH =====
+// ===== 013 Практика, ч.1. Начинаем создавать приложение =====
+
+/* ===== 014 Условия =====
+
+// if (4 == 9) {
+//   console.log('Ok!');
+// } else {
+//   console.log('Error!');
+// }
+
+// const num = 50;
+// if (num < 49) {
+//   console.log('Error!');
+// } else if (num > 100) {
+//   console.log('Много');
+// } else {
+//   console.log('Ok!');
+// }
+// ---Тернарные операторы---
+
+// (num === 50) ? console.log('Ok!') : console.log('Error!');
+
+const num = '50';
+
+switch (num) {
+  case '49':
+    console.log('Неверно');
+    break;
+  case '100':
+    console.log('Неверно');
+    break;
+  case '50':
+    console.log('В точку!');
+    break;
+  default:
+    console.log('Не в этот раз!');
+    break;
+}
+*/
+
+// ===== 015 (д) Логические операторы =====
