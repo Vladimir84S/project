@@ -348,4 +348,53 @@ first: for (let i = 0; i < 3; i++) {
 
 // ===== 018 Практика, ч2. Применяем условия и циклы =====
 
-// ===== 019 Функции, стрелочные ф-ции (ES6) =====
+/* ===== 019 Функции, стрелочные ф-ции (ES6) =====
+
+// **** FUNCTION DECLARATION ****
+
+let num = 20;
+
+function showFirsMessage(text) {
+  console.log(text);
+  // let num = 10;
+  console.log(num);
+}
+
+showFirsMessage("Hello World!");
+console.log(num);
+
+console.log(calc(4, 3));
+console.log(calc(5, 6));
+console.log(calc(10, 6));
+
+function calc(a, b) {
+  return (a + b);
+}
+
+function ret() {
+  let num = 50;
+  return num;
+}
+
+const anotherNum = ret();
+console.log(anotherNum);
+
+// **** FUNCTION EXPRESSION ****
+
+const logger = function () {
+  console.log("Hello")
+};
+
+logger();
+
+// **** СТРЕЛОЧНЫЕ ФУНКЦИИ ****
+
+const calc = (a, b) => {
+  console.log('1')
+  return a + b
+};
+
+calc();
+*/
+
+// ===== 020 (д) Еще раз про аргументы функций =====
