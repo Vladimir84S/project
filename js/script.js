@@ -348,7 +348,7 @@ first: for (let i = 0; i < 3; i++) {
 
 // ===== 018 Практика, ч2. Применяем условия и циклы =====
 
-/* ===== 019 Функции, стрелочные ф-ции (ES6) =====
+/*  ===== 019 Функции, стрелочные ф-ции (ES6) =====
 
 // **** FUNCTION DECLARATION ****
 
@@ -363,7 +363,7 @@ function showFirsMessage(text) {
 showFirsMessage("Hello World!");
 console.log(num);
 
-console.log(calc(4, 3));
+console.log(calc(4, 2));
 console.log(calc(5, 6));
 console.log(calc(10, 6));
 
