@@ -587,4 +587,102 @@ function compareNum(a, b) {
 */
 
 // ===== 028 урока небыло =====
-// ===== 029 Передача по ссылке или по значению, Spread оператор (ES6-ES9) =====
+/* ===== 029 Передача по ссылке или по значению, Spread оператор (ES6-ES9) =====
+
+// let a = 5,
+//   b = a;
+
+// b = b + 5;
+
+// console.log(b);
+// console.log(a);
+
+// const obj = {
+//   a: 5,
+//   b: 1
+// };
+
+// const copy = obj; // Передача по ссылке
+
+// copy.a = 10;
+
+// console.log(copy);
+// console.log(obj);
+
+function copy(mainObj) {
+  let objCopy = {};
+
+  let key;
+  for (key in mainObj) {
+    objCopy[key] = mainObj[key];
+  }
+
+  return objCopy;
+}
+
+const numbers = {
+  a: 2,
+  b: 5,
+  c: {
+    x: 7,
+    y: 4
+  }
+};
+
+const newNumbers = copy(numbers);
+newNumbers.a = 10;
+newNumbers.c.x = 10;
+
+// console.log(newNumbers);
+// console.log(numbers);
+
+const add = {
+  d: 17,
+  e: 20
+};
+
+// console.log(Object.assign(numbers, add));
+const clone = Object.assign({}, add);
+clone.d = 20;
+
+// console.log(add);
+// console.log(clone);
+
+const oldArray = ['a', 'b', 'c'];
+const mewArray = oldArray.slice();
+
+mewArray[1] = 'asdadadaadad';
+
+console.log(mewArray);
+console.log(oldArray);
+
+// **** Оператор разворота **** Spread оператор (...) ****
+
+const video = ['youtube', 'vimeo', 'megogo'],
+  blogs = ['wordpress', 'livejournal', 'blogger'],
+  internet = [...video, ...blogs, 'facebook', 'instagram'];
+
+console.log(internet);
+
+function log(a, b, c) {
+  console.log(a);
+  console.log(b);
+  console.log(c);
+};
+
+const num = [2, 5, 7];
+
+log(...num)
+
+const array = ["a", "b"]
+const newArray = [...array];
+
+const q = {
+  one: 1,
+  two: 2
+};
+
+const newObj = { ...q };
+*/
+
+// ===== 030 Основы ООП, прототипно-ориентированное наследование =====
