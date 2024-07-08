@@ -718,5 +718,30 @@ jonh.sayHello()
 
 // ===== 031 Практика , ч4. Используем объекты =====
 
-// ===== 032 Отлавливаем ошибки в своем коде при помощи консоли разработчика. Breakpoints =====
+/* ===== 032 Отлавливаем ошибки в своем коде при помощи консоли разработчика. Breakpoints =====
 
+function hello() {
+  console.log("Hello World");
+  debugger;
+}
+
+
+hello();
+
+function hi() {
+  console.log("Say hi!")
+}
+
+hi();
+
+const arr = [1, 14, 4, 30, 54],
+  sorted = arr.sort(compareNum);
+
+function compareNum(a, b) {
+  return a - b;
+}
+
+console.log(sorted);
+*/
+
+// ===== 033 Динамическая типизация в JS =====
