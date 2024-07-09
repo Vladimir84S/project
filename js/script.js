@@ -744,4 +744,58 @@ function compareNum(a, b) {
 console.log(sorted);
 */
 
-// ===== 033 Динамическая типизация в JS =====
+/* ===== 033 Динамическая типизация в JS =====
+
+// To String (превращение чего-то в строку);
+
+// 1) Команда String
+console.log(typeof (String(null)));
+console.log(typeof (String(4)));
+
+// 2) Конкретинация (сложение строк или сложение строки с чем-то)
+console.log(typeof (5 + ''));
+
+const num = 5;
+
+console.log("https://zakon.rada.gov.ua/laws/" + num)
+
+const fontSize = 26 + 'px';
+
+// To Number (превращение чего-то в число);
+
+// 1) Команда Number
+console.log(typeof (Number('4')))
+
+// 2) Унарный плюс (знак плюса перед другим типом данных)
+console.log(typeof (+'5'));
+
+// 3) Превращение определенных структур в числа
+
+console.log(typeof (parseInt("15px", 10)));
+
+
+let answ = +prompt("Hello", "");
+
+// To Boolean (в булиновое значение)
+
+// 0, '', null, undefined, NaN; - false
+
+// 1)
+let switcher = null;
+if (switcher) {
+  console.log('Working...');
+}
+
+switcher = 1;
+if (switcher) {
+  console.log('Working...');
+}
+
+// 2)
+console.log(typeof (Boolean('4')));
+
+// 3)
+console.log(typeof (!!"4444"));
+*/
+
+// ===== 034 Замыкание и лексическое окружение =====
