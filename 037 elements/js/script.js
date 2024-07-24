@@ -51,7 +51,7 @@ wrapper.append(div);
 
 //  *** Замена одного элемента, другим *** //
 
-// hearts[0].replaceWith(circles[0]);
+hearts[0].replaceWith(circles[0]);
 // wrapper.replaceChild(circles[0], hearts[0]);
 
 //  *** Добавление элементов *** //
