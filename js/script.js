@@ -1002,3 +1002,4 @@ const result = getTotalProgressByRecursion(students);
 console.log(result[0] / result[1]);
 */
 // ===== 042 Практика. Используем события на странице проекта =====
+// ===== 043 События на мобильных устройствах =====
