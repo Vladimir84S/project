@@ -1003,5 +1003,20 @@ console.log(result[0] / result[1]);
 */
 // ===== 042 Практика. Используем события на странице проекта =====
 // ===== 043 События на мобильных устройствах =====
-// ===== 044 Async, defer, динамические скрипты =====
+/* ===== 044 Async, defer, динамические скрипты =====
 
+const p = document.querySelectorAll('p');
+console.log(p);
+
+function loadScript(src) {
+  const script = document.createElement('script');
+  script.src = src;
+  script.async = false;
+  document.body.append(script);
+}
+
+loadScript("js/test.js");
+loadScript("js/some.js");
+*/
+
+// ===== 001 Про дополнительную информацию по основам =====
