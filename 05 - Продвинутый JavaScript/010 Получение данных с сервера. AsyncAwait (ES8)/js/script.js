@@ -386,7 +386,7 @@ window.addEventListener('DOMContentLoaded', () => {
     }, 4000);
   }
 
-  fetch('http://localhost:3000/menu')  по видео удалили
-    .then((data) => data.json()) по видео удалили
-    .then((res) => console.log(res)); по видео удалили
+  // fetch('http://localhost:3000/menu')  по видео удалили
+  //   .then((data) => data.json()) по видео удалили
+  //   .then((res) => console.log(res)); по видео удалили
 });
