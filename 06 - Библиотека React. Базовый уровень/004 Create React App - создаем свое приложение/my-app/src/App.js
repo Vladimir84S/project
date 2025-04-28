@@ -24,7 +24,7 @@ class WhoAmI extends Component {
       <div>
         <button onClick={this.nextYear}>{this.state.text}</button>
         <h1>
-          My name is {name}, surname - {surnam}, age - {this.state.years}
+          My name is {name}, surname - {surname}, age - {this.state.years}
         </h1>
         <a href={link}>My profile</a>
       </div>
