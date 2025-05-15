@@ -19,7 +19,17 @@ class EmployeesAddForm extends Component {
 
   onSubmit = (e) => {
     e.preventDefault();
-    this.props.onAdd(this.state.name, this.state.salary);
+    const { name, salary } = this.state;
+
+    if (
+      name.trim() === '' ||
+      salary.trim() === '' ||
+      isNaN(salary) ||
+      +salary <= 0
+    ) {
+      return; // Не отправляем пустые или некорректные данные
+    }
+    this.props.onAdd(name.trim(), salary.trim());
     this.setState({
       name: '',
       salary: '',
