@@ -41,13 +41,13 @@ class EmployeesListItem extends Component {
           className="list-group-item-label"
           onClick={onToggleProp}
           data-toggle="rise"
-          style={{
-            fontSize: '40px',
-            color: 'red',
-            transition: 'all',
-            WebkitTransition: 'all',
-            msTransition: 'all',
-          }}
+          // style={{
+          //   // fontSize: '40px',
+          //   // color: 'red',
+          //   transition: 'all',
+          //   WebkitTransition: 'all',
+          //   msTransition: 'all',
+          // }}
         >
           {name}
         </span>
